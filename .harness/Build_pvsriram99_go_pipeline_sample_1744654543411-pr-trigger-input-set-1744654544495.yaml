@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pvsriram99_go_pipeline_sample_1744654543411-pr-trigger-input-set
+  identifier: Build_pvsriram99_go_pipeline_sample_1744654543411prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_pvsriram99_go_pipeline_sample_1744654543411
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
